@@ -1,0 +1,74 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.card {
+    display: flex;
+}
+
+img {
+    width: 650px;
+    padding: 150px 70px;
+    margin: 0 50px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.CardP {
+    margin: 0 20px;
+}
+
+.CardP p {
+    font-size: 40px;
+    margin: 0 0 20px 0;
+}
+
+.number {
+    display: flex;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    border: 1px solid #ccc;
+    color: #fff;
+    column-gap: 20px;
+}
+.input{
+    background: black;
+}
+
+.AddToCart{
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: black;
+    border: 1px solid #ccc;
+    color: #fff;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+
+@media  (max-width: 500px){
+
+    .card{
+        flex-direction: column;
+    }
+
+    .CartImg{
+        width: 80%;
+        padding: 70px;
+        margin: 20px 50px;
+
+    }
+    
+}

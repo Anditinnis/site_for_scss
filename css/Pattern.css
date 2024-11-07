@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s ease;
+}
+
+
+@font-face {
+    font-family: 'minecraft';
+    src: local('minecraft'),
+        url(../minecraft.ttf)
+        /*   font-family: 'minecraft'; */
+}
+
+
+@font-face {
+    font-family: 'Cinematografica';
+    src: local('Cinematografica'),
+        url(../font/Cinematografica-Bold.otf)
+        /* font-family: 'Cinematografica'; */
+}
+
+body {
+    background-color: rgb(23, 23, 23);
+    font-family: 'minecraft';
+}
+
+nav {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 200px;
+    padding: 20px 50px;
+    font-size: 18px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+p {
+    color: white;
+}
+
+nav ul li {
+    display: inline;
+    margin: 1em;
+}
+
+
+nav ul li a:hover {
+    padding-bottom: 5px;
+    border-bottom: 1px rgb(255, 255, 255) solid;
+    font-weight: bold;
+}
+
+/*
+nav ul li ul{
+    position: absolute;
+    top: 55px;
+    left: 250px;
+    width: 100px;
+    display: none;
+}
+
+nav ul li ul li{
+    width: 100%;
+
+}
+
+nav ul li:hover > ul{
+    display: initial;
+}
+*/
+
+
+.header i {
+    font-size: 35px;
+    margin: 0 10px;
+}
+
+.header i:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer div {
+    padding: 20px 0;
+}
+
+.footer i {
+    font-size: 30px;
+    margin: 0 5px;
+}
+
+.footer i:hover {
+    transform: scale(1.2);
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: rgb(23, 23, 23);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.close {
+    color: #eeeeee;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(160, 160, 160);
+    text-decoration: none;
+}
+
+.LoginAndRegist{
+    margin: 15% auto;
+    width: 50%;
+}
+
+
+.LoginAndRegist ul li{
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid #888;
+    padding: 20px 0;
+    margin: 10px 0;
+    background-color: rgb(23, 23, 23);
+}
+
+.LoginAndRegist ul li:hover{
+    background-color: rgb(129, 129, 129);
+}
+
+
+
+
+
+@media (min-width: 500px) {
+    .mobile {
+        display: none;
+    }
+
+}
+
+@media  (max-width: 500px){
+
+.SloganP p{
+        font-size: 60px;
+    }
+p {
+    font-size: 20px;
+}
+a{
+    font-size: 20px;
+}
+
+.NameNew p{
+    font-size: 25px;
+    padding: 50px 0;
+}
+
+
+nav {
+    display: none;
+    background-color: rgb(23, 23, 23);
+    padding: 5px;
+    border-radius: 10px;
+    z-index: 2;
+}
+    /* Кнопка выпадающего списка */
+    .dropbtn {
+        font-size: 16px;
+        background-color: rgb(23, 23, 23);
+        transform: none;
+    }
+
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+
+    .nav {
+        display: none;
+        position: absolute;
+        min-width: 30px;
+        right: 10px;
+        z-index: 1;
+    }
+
+
+    .nav a {
+        padding: 5px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown:hover .nav {
+        display: block;
+    }
+
+    .dropbtn img {
+        width: 50px;
+    }
+
+li{
+    list-style-type: none;
+}
+
+.NewVinyl{
+    display: block;
+    padding: 0 50px;
+}
+.IconVinyl1 {
+    display: block;
+    padding: 0 50px;
+}
+
+
+img {
+    width: 280px;
+}
+.icon{
+    display: flex;
+}
+
+.LoginAndRegist {
+    width: 90%;
+    margin: 25% auto;
+}
+.IconVinyl1{
+    flex-direction: column;
+}
+
+}

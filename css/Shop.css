@@ -1,186 +1,214 @@
-
-
-
-.header nav u{
-	display: flex;
+@charset "UTF-8";
+.header nav u {
+  display: flex;
 }
+
 .img_fon {
-	background: url('../images/FonForHeader.jpg');
-	background-size: cover;
-	height: 600px;
+  background: url("../images/FonForHeader.jpg");
+  background-size: cover;
+  height: 600px;
 }
+
 .Slogan {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-	font-size: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 150px;
 }
+
 .SloganP {
-	font-weight: bold;
-	font-family: 'Cinematografica';
-	text-shadow: 0 0 20px black;
+  font-weight: bold;
+  font-family: "Cinematografica";
+  text-shadow: 0 0 20px black;
 }
+
 img {
-	width: 350px;
-	padding: 10px;
+  width: 350px;
+  padding: 10px;
 }
+
 .NewVinyl {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	column-gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
 }
+
 .VinylName ul {
-	list-style-type: none;
+  list-style-type: none;
 }
+
 .VinylName {
-	padding: 10px 0;
+  padding: 10px 0;
 }
+
 .VinylName ul li {
-	padding: 10px 0;
+  padding: 10px 0;
 }
+
 .NameNew {
-	display: flex;
-	justify-content: center;
-	font-size: 30px;
-	padding: 50px 0;
-	transition: 1s ease;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding: 50px 0;
+  transition: 1s ease;
 }
-.NameNewa  {
-	display: flex;
-	justify-content: center;
-	font-size: 20px;
-	padding: 30px 0;
+
+.NameNewa {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  padding: 30px 0;
 }
+
 .IconVinyl1 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	column-gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
 }
+
 .NewVinyl img {
-	width: 100%;
+  width: 100%;
 }
+
 .IconVinyl1 img {
-	width: 100%;
+  width: 100%;
 }
+
 .IconVinyl1 div {
-	padding: 10px 0;
+  padding: 10px 0;
 }
+
 .IconVinyl img {
-	transition: 1s ease;
+  transition: 1s ease;
 }
+
 .IconVinyl img:hover {
-	transform: scale(1.1);
-	transition: 1s ease;
+  transform: scale(1.1);
+  transition: 1s ease;
 }
+
 .NameNew:hover {
-	transform: scale(1.1);
-	transition: 1s ease;
+  transform: scale(1.1);
+  transition: 1s ease;
 }
+
 .NameGroup:hover {
-	color: rgb(112, 112, 112);
+  color: rgb(112, 112, 112);
 }
+
 .AnimatoinCarts {
-	margin: 5px;
-	font-weight: bold;
+  margin: 5px;
+  font-weight: bold;
 }
+
 .AnimatoinCarts:hover {
-	color: rgb(112, 112, 112);
+  color: rgb(112, 112, 112);
 }
+
 .NewVinyl2 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	column-gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
 }
+
 .NewVinyl3 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	column-gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
 }
+
 .NewVinyl2 img {
-	width: 300px;
+  width: 300px;
 }
+
 .NewVinyl3 img {
-	width: 300px;
+  width: 300px;
 }
-.carts{
-	display: flex;
-	align-content: center;
-	justify-content: space-between;
+
+.carts {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
 }
+
 @media (min-width: 500px) {
-	.mobile {
-			display: none;
-	}
+  .mobile {
+    display: none;
+  }
 }
-@media  (max-width: 500px){
-.SloganP p{
-			font-size: 60px;
-	}
-p {
-	font-size: 20px;
-}
-a{
-	font-size: 20px;
-}
-.NameNew p{
-	font-size: 25px;
-	padding: 50px 0;
-}
-	nav {
-			display: none;
-			background-color: rgb(23, 23, 23);
-			padding: 5px;
-			border-radius: 10px;
-			z-index: 2;
-	}
-	/* Кнопка выпадающего списка */
-	.dropbtn {
-			font-size: 16px;
-			background-color: rgb(23, 23, 23);
-			transform: none;
-	}
-	.dropdown {
-			position: relative;
-			display: inline-block;
-	}
-	.nav {
-			display: none;
-			position: absolute;
-			min-width: 30px;
-			right: 10px;
-			z-index: 1;
-	}
-	.nav a {
-			padding: 5px;
-			text-decoration: none;
-			display: block;
-	}
-	.dropdown:hover .nav {
-			display: block;
-	}
-	.dropbtn img {
-			width: 50px;
-	}
-li{
-	list-style-type: none;
-}
-.NewVinyl{
-	display: block;
-	padding: 0 50px;
-}
-.IconVinyl1 {
-	display: block;
-	padding: 0 50px;
-}
-img {
-	width: 280px;
-}
-.icon{
-	display: flex;
-}
-}
+@media (max-width: 500px) {
+  .SloganP p {
+    font-size: 60px;
+  }
+  p {
+    font-size: 20px;
+  }
+  a {
+    font-size: 20px;
+  }
+  .NameNew p {
+    font-size: 25px;
+    padding: 50px 0;
+  }
+  nav {
+    display: none;
+    background-color: rgb(23, 23, 23);
+    padding: 5px;
+    border-radius: 10px;
+    z-index: 2;
+  }
+  /* Кнопка выпадающего списка */
+  .dropbtn {
+    font-size: 16px;
+    background-color: rgb(23, 23, 23);
+    transform: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .nav {
+    display: none;
+    position: absolute;
+    min-width: 30px;
+    right: 10px;
+    z-index: 1;
+  }
+  .nav a {
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown:hover .nav {
+    display: block;
+  }
+  .dropbtn img {
+    width: 50px;
+  }
+  li {
+    list-style-type: none;
+  }
+  .NewVinyl {
+    display: block;
+    padding: 0 50px;
+  }
+  .IconVinyl1 {
+    display: block;
+    padding: 0 50px;
+  }
+  img {
+    width: 280px;
+  }
+  .icon {
+    display: flex;
+  }
+}/*# sourceMappingURL=Shop.css.map */
